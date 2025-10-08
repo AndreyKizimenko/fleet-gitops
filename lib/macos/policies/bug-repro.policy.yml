@@ -4,9 +4,9 @@
   description: Policy triggers automatic install of 1Password on each host that's
     missing this software.
   install_software:
-    hash_sha256: df8ca54b95eaf41cba9ee5241262e88b4c11e61010c75bc186b605ab89a3483b
-      # 1Password (1Password-8.11.12-aarch64.zip) version 8.11.12
-  name: '[Install software] 1Password'
+    hash_sha256: 226854e4cdf0be0c79db7ab262be567ddc288a078c974c973117b2efbbb29675
+      # 1Password (1Password-7.9.5.pkg) version 7.9.5
+  name: '[Install software] 1Password (pkg)'
   platform: darwin
-  query: SELECT 1 FROM apps WHERE bundle_identifier = 'com.1password.1password';
+  query: SELECT 1 FROM apps WHERE bundle_identifier = 'com.agilebits.pkg.onepassword';
   resolution:
