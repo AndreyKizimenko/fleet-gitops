@@ -32,14 +32,8 @@ controls:
     grace_period_days:
 name: EXTRA
 policies:
-- path: ../lib/macos/policies/bug-repro.policy.yml
 queries:
 software:
-  packages:
-  - path: ../lib/macos/packages/1password.package.yml
-    self_service: true
-    labels_include_any:
-    - LabelToBeRemoved
 team_settings:
   features:
     enable_host_users: true
