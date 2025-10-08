@@ -14,7 +14,7 @@ agent_options:
       pack_delimiter: /
   overrides:
 labels:
-- path: ./lib/macos/labels/bug-repro.label.yml
+
 - description:
   label_membership_type: dynamic
   name: Dynamic
