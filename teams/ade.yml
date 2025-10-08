@@ -32,7 +32,7 @@ controls:
     grace_period_days:
 name: ADE
 policies:
-- path: ./lib/macos/policies/bug-repro.policy.yml
+- path: ../lib/macos/policies/bug-repro.policy.yml
 queries:
 software:
   packages:
