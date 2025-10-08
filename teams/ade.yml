@@ -34,7 +34,17 @@ name: ADE
 policies:
 queries:
 software:
-
+  packages:
+  - categories:
+    - Productivity
+    hash_sha256: df8ca54b95eaf41cba9ee5241262e88b4c11e61010c75bc186b605ab89a3483b
+      # 1Password (1Password-8.11.12-aarch64.zip) version 8.11.12
+    labels_include_any:
+    - LabelToBeRemoved    
+    install_script:
+      path: ../lib/no-team/scripts/1password-darwin-install
+    uninstall_script:
+      path: ../lib/no-team/scripts/1password-darwin-uninstall
 team_settings:
   features:
     enable_host_users: true
