@@ -30,7 +30,7 @@ controls:
   windows_updates:
     deadline_days:
     grace_period_days:
-name: ADE
+name: EXTRA
 policies:
 - path: ../lib/macos/policies/bug-repro.policy.yml
 queries:
