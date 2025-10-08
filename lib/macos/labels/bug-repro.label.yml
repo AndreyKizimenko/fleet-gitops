@@ -1,0 +1,5 @@
+- description:
+  hosts:
+  - Tests-MacBook-Pro.local
+  label_membership_type: manual
+  name: LabelToBeRemoved

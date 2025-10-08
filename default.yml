@@ -14,10 +14,7 @@ agent_options:
       pack_delimiter: /
   overrides:
 labels:
-- description:
-  label_membership_type: dynamic
-  name: TestLabel
-  query: SELECT 1 FROM os_version WHERE major >= 13;
+- path: ./lib/macos/labels/bug-repro.label.yml
 - description:
   label_membership_type: dynamic
   name: Dynamic
